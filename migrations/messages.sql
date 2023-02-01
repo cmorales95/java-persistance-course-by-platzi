@@ -1,0 +1,6 @@
+CREATE TABLE messages (
+    id int PRIMARY KEY NOT NULL,
+    message VARCHAR(280) NOT NULL,
+    author VARCHAR(50) NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);

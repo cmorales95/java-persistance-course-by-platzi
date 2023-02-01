@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  db:
+    image: mysql:latest
+    container_name: db_java_course
+    restart: always
+    environment:
+      MYSQL_DATABASE: "messages"
+      MYSQL_USER: "test"
+      MYSQL_PASSWORD: "test"
+      MYSQL_ROOT_PASSWORD: "root"
+    ports:
+      - '3306:3306'
