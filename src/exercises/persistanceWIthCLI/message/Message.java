@@ -1,6 +1,4 @@
-package message;
-
-import java.util.Date;
+package exercises.persistanceWIthCLI.message;
 
 public class Message {
     private int id;

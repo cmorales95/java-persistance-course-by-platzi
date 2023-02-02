@@ -1,14 +1,13 @@
-package message.dao;
+package exercises.persistanceWIthCLI.message.dao;
 
-import db.DBConnection;
-import message.Message;
+import exercises.persistanceWIthCLI.db.DBConnection;
+import exercises.persistanceWIthCLI.message.Message;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.List;
 
 public class MessageDAO {
     public static void newMessage(Message message) {

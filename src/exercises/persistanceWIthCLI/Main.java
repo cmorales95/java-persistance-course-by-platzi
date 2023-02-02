@@ -1,4 +1,6 @@
-import message.services.MessageService;
+package exercises.persistanceWIthCLI;
+
+import exercises.persistanceWIthCLI.message.services.MessageService;
 
 import java.util.Scanner;
 
@@ -24,6 +26,5 @@ public class Main {
                 case 4 -> MessageService.updateMessage();
             }
         } while (option != 5);
-
     }
 }

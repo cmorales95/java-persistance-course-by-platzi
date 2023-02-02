@@ -1,10 +1,8 @@
-package message.services;
+package exercises.persistanceWIthCLI.message.services;
 
-import message.Message;
-import message.dao.MessageDAO;
+import exercises.persistanceWIthCLI.message.Message;
+import exercises.persistanceWIthCLI.message.dao.MessageDAO;
 
-import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
